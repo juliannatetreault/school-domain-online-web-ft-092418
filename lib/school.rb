@@ -19,11 +19,12 @@ end
 
 def sort
   @roster.each do |grade, name|
+     name.sort
     hash = {} << name
     #grade.sort
     #name.each do |student|
-      name.sort
-      @roster.push(name)
+     
+      #@roster.push(name)
   #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
   end
