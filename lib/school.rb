@@ -19,7 +19,7 @@ end
 
 def sort
   hash = {} 
-  return @roster.each do { |key, value|  hash[key] = value.sort }
+  @roster.each do { |key, value|  hash[key] = value.sort }
   
   #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
