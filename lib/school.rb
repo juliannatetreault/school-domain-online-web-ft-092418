@@ -19,7 +19,7 @@ end
 
 def sort
   @roster.each do |grade, name|
-    hash = {}
+    hash = {} << name
     #grade.sort
     #name.each do |student|
       name.sort
