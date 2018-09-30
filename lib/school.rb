@@ -22,7 +22,7 @@ def sort
   @roster.each do |key, value|
      value.sort
     
-    hash[key] = value
+    hash[key] = value.sort
     #grade.sort
     #name.each do |student|
      
