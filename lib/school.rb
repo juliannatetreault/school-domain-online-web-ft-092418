@@ -22,7 +22,7 @@ def sort
     #grade.sort
     #name.each do |student|
       name.sort
-      @roster.push(grade, student)
+      @roster.push(grade, name)
   #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
   end
