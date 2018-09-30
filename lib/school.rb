@@ -19,7 +19,8 @@ end
 
 def sort
   @roster.each do |grade, name|
-  Hash[@roster.sort]
+    
+  #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
   end
 end
