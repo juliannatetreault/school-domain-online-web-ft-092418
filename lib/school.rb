@@ -26,6 +26,6 @@ def sort
   #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
   end
-end
+#end
 end
 end
