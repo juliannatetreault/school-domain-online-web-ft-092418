@@ -22,7 +22,9 @@ def sort
     grade.sort
     name.each do |student|
       student.sort
+      @roster << grade, student
   #Hash[@roster.sort]
   #return @roster.sort #{ |a, b| a <=> b }
   end
+end
 end
