@@ -27,5 +27,3 @@ def sort
   #return @roster.sort #{ |a, b| a <=> b }
   end
 end
-end
-end
