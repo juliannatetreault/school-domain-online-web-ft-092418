@@ -19,10 +19,8 @@ end
 
 def sort
   hash = {} 
-  @roster.each do |key, value|
+  @roster.each do { |key, value|  hash[key] = value.sort }
      #value.sort
-    
-    hash[key] = value.sort
     #grade.sort
     #name.each do |student|
      
