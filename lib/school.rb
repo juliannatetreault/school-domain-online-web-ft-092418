@@ -19,7 +19,7 @@ end
 
 def sort
   @roster.each do |grade, name|
-    grade.sort
+    #grade.sort
     name.each do |student|
       student.sort
       @roster.push(grade, student)
